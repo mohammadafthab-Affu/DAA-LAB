@@ -54,6 +54,15 @@ This program solves the **Coin Change Problem using Dynamic Programming**. It fi
 
 The program efficiently finds the minimum number of coins using **Dynamic Programming**. It avoids repeated calculations and works well for different coin values and amounts. If the required amount cannot be formed, the program clearly displays that change cannot be made.
 
+# PRACTICAL-5
+## Summary
+
+This program implements the 0/1 Knapsack Problem using Dynamic Programming. It uses five items with predefined weights and values and a knapsack capacity of 9. The DP table stores the maximum value possible for different capacities. Each item is either selected or not selected to obtain the best possible value.
+
+## Conclusion
+
+The program successfully finds the maximum value of 21 without exceeding the given capacity. Dynamic Programming provides an effective method to find the optimal combination of items while ensuring that each item is selected at most once.
+
 # PRACTICAL-6
 ## Summary
 
