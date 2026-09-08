@@ -45,15 +45,6 @@ This C++ program calculates the factorial of a non-negative integer using **two 
 
 The program demonstrates that both iterative and recursive approaches can be used to calculate factorial efficiently. The **iterative approach is generally more memory-efficient** because it does not require additional stack space. The recursive approach is simpler and demonstrates the concept of recursion, but it requires extra memory for function calls. Therefore, for practical use, the **iterative method is usually preferred** when memory efficiency is important.
 
-# PRACTICAL-7
-## Summary
-
-This program solves the **Coin Change Problem using Dynamic Programming**. It finds the minimum number of coins required to make a given amount and also displays the coins used. The `dp` array stores the minimum coins needed for each amount, while `coinUsed` keeps track of which coin was selected.
-
-## Conclusion
-
-The program efficiently finds the minimum number of coins using **Dynamic Programming**. It avoids repeated calculations and works well for different coin values and amounts. If the required amount cannot be formed, the program clearly displays that change cannot be made.
-
 # PRACTICAL-5
 ## Summary
 
@@ -71,3 +62,12 @@ This program implements the Matrix Chain Multiplication problem using Dynamic Pr
 ## Conclusion
 
 The program successfully finds the optimal order for multiplying the given matrices using Dynamic Programming. It calculates that the minimum number of scalar multiplications required is 2,000. This approach helps avoid unnecessary calculations and provides an efficient way to determine the best multiplication order for a chain of matrices.
+
+# PRACTICAL-7
+## Summary
+
+This program solves the **Coin Change Problem using Dynamic Programming**. It finds the minimum number of coins required to make a given amount and also displays the coins used. The `dp` array stores the minimum coins needed for each amount, while `coinUsed` keeps track of which coin was selected.
+
+## Conclusion
+
+The program efficiently finds the minimum number of coins using **Dynamic Programming**. It avoids repeated calculations and works well for different coin values and amounts. If the required amount cannot be formed, the program clearly displays that change cannot be made.
