@@ -16,8 +16,8 @@ Quick Sort – Selects a pivot, partitions the array, and recursively sorts the 
 
 This program demonstrates the performance differences between basic and advanced sorting algorithms. 
 For larger datasets, Merge Sort and Quick Sort are generally much faster than Bubble Sort, Selection Sort, and Insertion Sort, making them more suitable for efficient sorting tasks.
-
- #  
+# 
+ 
 # PRACTICAL-2
 ## SUMMARY:
 
@@ -27,6 +27,7 @@ This C++ program compares Linear Search and Binary Search by searching for a use
 
 The program demonstrates that Binary Search is much faster than Linear Search for large sorted arrays because it repeatedly divides the search space in half. It highlights the importance of choosing an efficient search algorithm to improve performance.
 # 
+
 # PRACTICAL-3
 ## Summary
 
@@ -36,6 +37,7 @@ Heap Sort is an efficient comparison-based sorting algorithm that uses a Max Hea
 
 Heap Sort is a reliable and efficient sorting algorithm with a time complexity of O(n log n) in the best, average, and worst cases. It sorts the array in-place, requiring only O(1) extra space. Because of its consistent performance and low memory usage, Heap Sort is well suited for applications where predictable execution time and efficient memory utilization are important.
 #
+
 #  PRACTICAL-4
 ## Summary
 
@@ -44,6 +46,7 @@ This C++ program calculates the factorial of a non-negative integer using **two 
 ## Conclusion
 
 The program demonstrates that both iterative and recursive approaches can be used to calculate factorial efficiently. The **iterative approach is generally more memory-efficient** because it does not require additional stack space. The recursive approach is simpler and demonstrates the concept of recursion, but it requires extra memory for function calls. Therefore, for practical use, the **iterative method is usually preferred** when memory efficiency is important.
+# 
 
 # PRACTICAL-5
 ## Summary
@@ -53,6 +56,7 @@ This program implements the 0/1 Knapsack Problem using Dynamic Programming. It u
 ## Conclusion
 
 The program successfully finds the maximum value of 21 without exceeding the given capacity. Dynamic Programming provides an effective method to find the optimal combination of items while ensuring that each item is selected at most once.
+# 
 
 # PRACTICAL-6
 ## Summary
@@ -62,6 +66,7 @@ This program implements the Matrix Chain Multiplication problem using Dynamic Pr
 ## Conclusion
 
 The program successfully finds the optimal order for multiplying the given matrices using Dynamic Programming. It calculates that the minimum number of scalar multiplications required is 2,000. This approach helps avoid unnecessary calculations and provides an efficient way to determine the best multiplication order for a chain of matrices.
+# 
 
 # PRACTICAL-7
 ## Summary
@@ -71,3 +76,15 @@ This program solves the **Coin Change Problem using Dynamic Programming**. It fi
 ## Conclusion
 
 The program efficiently finds the minimum number of coins using **Dynamic Programming**. It avoids repeated calculations and works well for different coin values and amounts. If the required amount cannot be formed, the program clearly displays that change cannot be made.
+# 
+
+# PRACTICAL-8
+## Summary
+
+This program implements a Graph using an adjacency list in C++. The Graph class stores vertices and their connections. The addEdge() function adds connections between vertices. Two graph searching techniques are implemented: DFS (Depth First Search) using recursion and BFS (Breadth First Search) using a queue. The program creates a graph with 6 vertices and displays both DFS and BFS traversals starting from vertex 0.
+
+##  Conclusion
+
+The program successfully demonstrates the implementation of a graph and its two important searching techniques, DFS and BFS. DFS explores the graph deeply using recursion, while BFS explores nodes level by level using a queue. Both algorithms have a time complexity of O(V + E) and are useful for graph traversal and searching problems.
+# 
+
