@@ -88,3 +88,11 @@ This program implements a Graph using an adjacency list in C++. The Graph class 
 The program successfully demonstrates the implementation of a graph and its two important searching techniques, DFS and BFS. DFS explores the graph deeply using recursion, while BFS explores nodes level by level using a queue. Both algorithms have a time complexity of O(V + E) and are useful for graph traversal and searching problems.
 # 
 
+# PRACTICAL-9
+## Summary
+
+This C++ program implements Prim’s Algorithm to find the Minimum Spanning Tree (MST) of a weighted graph. It starts from vertex 0, selects the smallest edge connecting a visited vertex to an unvisited vertex, and continues until all vertices are connected. The selected edges are 0-3 = 5, 3-2 = 4, and 0-1 = 10. The total minimum weight is 19.
+
+## Conclusion
+
+Prim’s Algorithm is a simple greedy algorithm used to find the Minimum Spanning Tree. It connects all vertices with the minimum possible total edge weight and does not create cycles. In this program, the minimum total weight of the spanning tree is 19.
