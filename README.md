@@ -113,3 +113,9 @@ The Floyd–Warshall algorithm finds the shortest distances between all pairs of
 
 ## Conclusion:
 The program successfully implements the Floyd–Warshall algorithm in C++. It calculates the shortest distances between all pairs of vertices. The time complexity is O(V³). The space complexity is O(V²).
+
+# Practical-12
+# Summary
+The Travelling Salesman Problem finds the minimum-cost route for visiting every city exactly once. The route must return to the starting city. The program checks all possible routes using permutations. It displays the minimum travel cost.
+# Conclusion
+The program successfully solves the Travelling Salesman Problem using C++. It calculates the minimum cost among all possible routes. For the given graph, the minimum cost is 80. The time complexity is \(O(V!)\) because all possible routes are checked.
