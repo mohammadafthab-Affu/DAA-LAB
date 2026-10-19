@@ -107,3 +107,9 @@ Kruskal’s algorithm is used to find the **Minimum Spanning Tree (MST)** of a w
 
 The program successfully implements **Kruskal’s algorithm** and finds the Minimum Spanning Tree with a minimum total cost of **19**. It avoids cycles using the Union-Find technique and selects the minimum-weight edges first. Thus, Kruskal’s algorithm is an efficient method for finding MSTs in weighted graphs.
 
+# practical-11
+## Summary:
+The Floyd–Warshall algorithm finds the shortest distances between all pairs of vertices in a graph. It uses a distance matrix to store the shortest distances. The algorithm checks all possible intermediate vertices. It updates the matrix whenever a shorter path is found.
+
+## Conclusion:
+The program successfully implements the Floyd–Warshall algorithm in C++. It calculates the shortest distances between all pairs of vertices. The time complexity is O(V³). The space complexity is O(V²).
